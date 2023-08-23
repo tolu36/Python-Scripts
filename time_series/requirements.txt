@@ -1,0 +1,7 @@
+python==3.7.10
+pandas
+numpy
+matplotlib
+black
+seaborn
+scikit-learn
