@@ -1,0 +1,11 @@
+{
+    "python.formatting.provider": "none",
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "lemmatization",
+        "Olusooto"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
