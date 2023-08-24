@@ -3,7 +3,8 @@
 .vscode/launch.json
 .vscode/extensions.json
 .vscode/*.code-snippets
-
+**/credentials.json
+**/token.json
 # Local History for Visual Studio Code
 .history/
 
