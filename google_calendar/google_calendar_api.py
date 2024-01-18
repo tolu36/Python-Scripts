@@ -1,4 +1,5 @@
 # %%
+# delete token to refresh this process it will make the user login again
 from __future__ import print_function
 
 import datetime as dt
@@ -29,6 +30,7 @@ class GoogleTask:
         # The file token.json stores the user's access and refresh tokens, and is
         # created automatically when the authorization flow completes for the first
         # time.
+
         if os.path.exists("token.json"):
             self.creds = Credentials.from_authorized_user_file(
                 "token.json", self.SCOPES
@@ -108,7 +110,7 @@ task_list = GoogleTask(SCOPES)
 task_list.connect_to_api()
 
 tsx = cal.get_calendar("TSX")
-early = tsx.schedule(start_date="2023-07-01", end_date="2023-12-31")
+early = tsx.schedule(start_date="2024-01-01", end_date="2024-12-31")
 date_list = cal.date_range(early, frequency="1D")
 
 # %%
