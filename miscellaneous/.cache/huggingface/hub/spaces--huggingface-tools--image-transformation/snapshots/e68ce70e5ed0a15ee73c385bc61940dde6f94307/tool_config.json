@@ -1,0 +1,5 @@
+{
+  "description": "This is a tool that transforms an image according to a prompt. It takes two inputs: `image`, which should be the image to transform, and `prompt`, which should be the prompt to use to change it. The prompt should only contain descriptive adjectives, as if completing the prompt of the original image. It returns the modified image.",
+  "name": "image_transformer",
+  "tool_class": "image_transformation.ImageTransformationTool"
+}

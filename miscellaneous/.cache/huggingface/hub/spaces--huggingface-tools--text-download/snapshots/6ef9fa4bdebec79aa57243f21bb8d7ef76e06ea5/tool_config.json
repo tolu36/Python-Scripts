@@ -1,0 +1,5 @@
+{
+  "description": "This is a tool that downloads a file from a `url`. It takes the `url` as input, and returns the text contained in the file.",
+  "name": "text_downloader",
+  "tool_class": "text_download.TextDownloadTool"
+}
